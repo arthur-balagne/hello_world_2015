@@ -1,0 +1,54 @@
+html{
+  	height: 100%;
+}
+body {
+  	min-height: 100%;
+	background-color: #DADADA;	
+}
+
+.container{
+	background-color: white;
+	
+}
+h1{
+	color: #34a853;
+    font-size: 80px;
+    font-family: 'Marvel', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.new-film{
+ 	padding: 3px 5px;
+}
+.add-film{
+ 	padding: 3px 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+.add-film:hover{
+	background-color: white;
+	text-decoration: underline;
+	color: green;
+}
+ 
+
+
+ .films li{
+ 	list-style: none;
+ 	padding: 3px 5px;
+ 	margin: 2px auto;
+ }
+ .films li .remove-film{
+ 	padding: 3px 5px;
+ 	background-color: #FF8784;
+ 	cursor: pointer;
+ 	transition: all 0.5s ease;
+ }
+ .films li .remove-film:hover{
+ 	color: #FF8784;
+ 	background-color: #000;
+ 	cursor: pointer;
+ }
